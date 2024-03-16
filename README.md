@@ -45,26 +45,26 @@ cd track-treasure
 2. Install backend dependencies:
 
 ```bash
-cd wegro-backend
+cd backend
 npm install
 ```
 
 3. Install frontend dependencies:
 
 ```bash
-cd ../wegro-frontend
+cd ../frontend
 npm install
 ```
 
 ### Running the Application
 
-1. To start the backend server, navigate to the `wegro-backend` directory and run:
+1. To start the backend server, navigate to the `backend` directory and run:
 
 ```bash
 npm start
 ```
 
-2. To run the frontend application, open a new terminal, navigate to the `wegro-frontend` directory, and execute:
+2. To run the frontend application, open a new terminal, navigate to the `frontend` directory, and execute:
 
 ```bash
 npm start
@@ -88,4 +88,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 ## Contact
 
-For any queries or further information, feel free to contact me through Whatsapp at +8801673850025 (10 am - 6 pm) or email at <zamaan.md19@gmail.com>
+For any queries or further information, feel free to contact me through Whatsapp at +8801673850025 (10am-6pm, Sun-Thu) or email at <zamaan.md19@gmail.com>
