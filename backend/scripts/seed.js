@@ -1,17 +1,9 @@
 // /backend/scripts/seed.js
-require('dotenv').config({ path: '../.env' }); // Adjust if your .env file is located elsewhere
-
+require('dotenv').config(); // Adjust if your .env file is located elsewhere
 const mongoose = require('mongoose');
 const MusicTrack = require('../models/MusicTrack'); // Update the path as necessary
 
-
-console.log(`Current directory: ${process.cwd()}`); 
-console.log('MongoDB URI:', process.env.MONGODB_URI); // Should print your MongoDB connection string
-
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGODB_URI)
 .then(() => console.log('MongoDB connected for seeding...'))
 .catch((err) => console.error(err));
 

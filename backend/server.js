@@ -1,5 +1,5 @@
 // backend/server.js
-require('dotenv').config({ path: '../.env' }); // Ensure this is at the top if you're using dotenv for environment variables
+require('dotenv').config(); // Ensure this is at the top if you're using dotenv for environment variables
 require('./config/database'); // Adjust the path according to your project structure
 
 const express = require('express');

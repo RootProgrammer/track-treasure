@@ -4,7 +4,7 @@ const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User'); // Adjust the path as necessary
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 
 const router = express.Router();
 
