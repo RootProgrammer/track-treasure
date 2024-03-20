@@ -46,6 +46,10 @@ jobs:
       - run:
           name: deploy
           command: '#e.g. ./deploy.sh'
+          environment:
+            MONGODB_URI: ${MONGODB_URI}
+            JWT_SECRET: ${JWT_SECRET}
+            # Add other environment variables as needed
 workflows:
   build-and-test:
     jobs:
