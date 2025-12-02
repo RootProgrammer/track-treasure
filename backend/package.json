@@ -12,7 +12,7 @@
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "expres": "^0.0.5",
-    "express-validator": "^7.0.1",
+    "express-validator": "^7.3.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.2"
   }
